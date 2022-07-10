@@ -245,7 +245,7 @@ footer > a{
     text-decoration: none;
     text-align: center;
     color: var(--cor1);
-    float: right;
+    float: left;
     padding: 10px 40px;
     font-family: var(--font1);
 }
