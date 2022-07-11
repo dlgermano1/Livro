@@ -95,11 +95,17 @@ img {
     clear: both;
   }
   
-  /* Six columns side by side */
+  /* quatro columns side by side */
   .column {
     float: left;
     width: 25%;
   }
+
+    /* oito columns side by side */
+    .column8 {
+      float: left;
+      width: 12.5%;
+    }
   
   /* Add a transparency effect for thumnbail images */
   .demo {

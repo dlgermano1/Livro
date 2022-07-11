@@ -37,8 +37,10 @@ body{
     max-width: 1200px;
     background-color: var(--cor8);
     margin-bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: var(--font1);
-    }
+}
 
 .main h1{
     background-color: var(--cor8);
@@ -55,8 +57,10 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     height: 75vh;
+    min-height: 100vh;
     background-size: contain;
     width: 65vw;
+    min-width: 889px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -69,7 +73,7 @@ body{
 
 
 ul{
-    padding-block-start: 1vw;
+    padding-block-start: 0.5%;
 }
 
 .inicio li {
@@ -321,4 +325,37 @@ ol{
 }
 .pequeno {
     margin: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .inicio{
+/*        display: flexbox;
+        flex-wrap: wrap;*/
+        height: 75px;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+
+    .inicio a, .index a {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--cor1);
+    }
+
+    .principal{
+        width: 100%;        
+    }
+
+    .capitulo p{
+        text-indent: 1em;
+        font-size: 0.8em;
+        line-height: 1em;
+        letter-spacing: 1px;
+    }
 }
