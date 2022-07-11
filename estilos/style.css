@@ -209,6 +209,10 @@ h2{
     margin: 14px 8px 0px 0px;
 }
 
+.foto_p{
+    width: 15vw;
+}
+
 .direita{
     float: right;
 }
@@ -216,7 +220,7 @@ h2{
     float: left;
 }
 .centro{
- text-align: center;
+ float: right;
 }
 
 img.em_pe{
@@ -225,6 +229,10 @@ img.em_pe{
 
 img.deitada{
     width: 30vw;
+}
+
+img.media{
+    width: 20vw;
 }
 
 
@@ -294,11 +302,23 @@ div.paralax#fotopara1{
 
 .foto3{
     position: relative;
-    max-width: 15vw;
-    margin: 10px;
+    max-width: 20vw;
+    margin: 10px 20px;
     padding: 0px;
 }
 
+
+.pecapitulo{
+    width: 100%;
+    background-color: var(--cor9);
+    
+}
+
+.pecapitulo > p {
+    text-align: right;
+    margin-right: 10px;
+    padding: 5px;
+}
 
 .foto2 .legendafoto, .foto3 .legendafoto{
     position: absolute;
@@ -325,6 +345,13 @@ ol{
 }
 .pequeno {
     margin: 15px;
+}
+
+.parentese{
+    background-color: var(--cor9);
+    padding: 5px 15px;
+    font-weight: bold;
+    margin: 25px 0px;
 }
 
 @media screen and (max-width: 900px) {
